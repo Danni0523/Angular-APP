@@ -1,62 +1,28 @@
-<style>
-/* Estilos para el contenedor principal */
-.home {
-  padding: 20px;
-  text-align: center;
-}
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container">
+    <div class="navbar-brand-box">
+      <a class="navbar-brand" href="#">App</a>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/consultar-costos">Consultar Costos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/compra-equipo">Compra de Equipo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/costo-smartphone">Costo para Smartphone</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/costo-plan">Costo de Plan Móvil</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-/* Estilos para el título */
-.home h1 {
- /* Estilos para el título */
-.home h1 {
-  font-size: 36px;
-  margin-bottom: 20px;
-  font-family: 'Pacifico', cursive; /* Fuente personalizada 'Pacifico' */
-  color: #333;
-  text-transform: uppercase;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-/* Resto de estilos como se proporcionaron anteriormente */
- font-size: 36px; /* Tamaño de fuente más grande */
-  margin-bottom: 20px; /* Margen inferior más grande */
-  font-weight: bold; /* Fuente en negrita */
-  color: #3a3a3a;
-  text-transform: uppercase; /* Transforma el texto a mayúsculas */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra del texto */
-}
-
-/* Estilos para los enlaces de navegación */
-.home ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.home li {
-  margin: 15px 0; /* Margen superior e inferior más grande */
-  font-size: 24px; /* Tamaño de fuente más grande */
-}
-
-.home a {
-  text-decoration: none;
-  color: #007BFF;
-  font-weight: bold; /* Fuente en negrita */
-  transition: color 0.3s;
-}
-
-.home a:hover {
-  color: #0056b3;
-}
-</style>
-<div class="container mt-5">
-  <h1 class="display-3 text-center">Bienvenido al Catálogo de Servicios</h1>
-  <p class="lead text-center">Explore nuestros servicios:</p>
-
-  <ul class="list-group text-center">
-    <li class="list-group-item"><a routerLink="/consultar-costos" class="text-primary">Consultar Costo de cualquier equipo</a></li>
-    <li class="list-group-item"><a routerLink="/compra-equipo" class="text-primary">Costo de compra de equipo</a></li>
-    <li class="list-group-item"><a routerLink="/costo-smartphone" class="text-primary">Consultar costo para smartphone</a></li>
-    <li class="list-group-item"><a routerLink="/costo-plan-movil" class="text-primary">Consultar costo de plan móvil</a></li>
-  </ul>
-</div>
+<router-outlet></router-outlet>

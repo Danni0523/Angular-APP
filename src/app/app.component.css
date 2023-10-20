@@ -1,0 +1,32 @@
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+}
+
+.navbar-brand-box {
+  background: linear-gradient(to right, #4e73df, #224abe);
+  border-radius: 10px;
+  padding: 8px 15px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+}
+
+.navbar-brand:hover {
+  color: #ccc;
+  text-decoration: none; /* Remove underline on hover */
+}
+.navbar-nav .nav-item {
+  margin: 0 5px; /* Adjust the margin as needed */
+}
+
+.navbar-nav .nav-link {
+  padding: 10px 15px;
+  font-size: 1rem; /* Adjust the font size if needed */
+}
