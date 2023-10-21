@@ -50,6 +50,7 @@
 .nav-link.custom i.fas.fa-user {
   font-size: 1.2rem; /* Adjust as needed */
   margin-left: 4rem; /* Add some spacing */
-  color: #ffffffa2; /* Subtle color */
+  color: #ffffffbd; /* Subtle color */
+  padding-right: 2rem;
 }
 

@@ -1,0 +1,58 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #ffffff, #f68e5f);
+}
+
+.login-box {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  position: relative; /* Added relative positioning for pseudo-element */
+}
+
+.login-box::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background-color: #add8e6; /* Light blue color for bottom border */
+  border-radius: 0 0 10px 10px; /* Round the bottom corners */
+}
+
+.login-title {
+  font-size: 1.5rem;
+  color: #f65f85;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.btn-primary {
+  background-color: #f65f85;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.btn-primary:hover {
+  background-color: #e16838;
+}
