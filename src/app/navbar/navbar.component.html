@@ -1,0 +1,43 @@
+<!-- navbar.component.html -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary rounded-bottom-4">
+  <div class="container">
+    <div class="navbar-brand-box">
+      <a class="navbar-brand" href="#">App</a>
+    </div>
+    <a class="nav-link custom" routerLink="/login">
+      <i class="fas fa-user"></i>
+    </a>
+
+    <button class="navbar-toggler" type="button" (click)="toggleNavbar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div
+      class="collapse navbar-collapse custom"
+      [ngClass]="{ show: isNavbarOpen }"
+      id="navbarNav"
+    >
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link custom" routerLink="/consultar-costos"
+            >Consultar Costos</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link custom" routerLink="/compra-equipo"
+            >Compra de Equipo</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link custom" routerLink="/costo-smartphone"
+            >Costo para Smartphone</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link custom" routerLink="/costo-plan"
+            >Costo de Plan Móvil</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

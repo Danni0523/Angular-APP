@@ -7,6 +7,8 @@ import { ConsultarCostosComponent } from './consultar-costos/consultar-costos.co
 import { CompraEquipoComponent } from './compra-equipo/compra-equipo.component';
 import { CostoSmartphoneComponent } from './costo-smartphone/costo-smartphone.component';
 import { CostoPlanComponent } from './costo-plan/costo-plan.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { CostoPlanComponent } from './costo-plan/costo-plan.component';
     ConsultarCostosComponent,
     CompraEquipoComponent,
     CostoSmartphoneComponent,
-    CostoPlanComponent
+    CostoPlanComponent,
+    NavbarComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

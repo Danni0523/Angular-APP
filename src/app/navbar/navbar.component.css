@@ -1,0 +1,55 @@
+
+/* Style for the dropdown buttons */
+.navbar-nav .nav-link.custom {
+  color: #fff;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-nav .nav-link.custom:hover {
+  background-color: rgba(255,255,255,0.1);
+}
+
+/* Rounded bottom corners for the dropdown */
+.navbar-nav .nav-item:last-child .nav-link.custom {
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+/* Style for the dropdown container */
+.navbar-nav .navbar-collapse.custom {
+  border-radius: 0 0 0.25rem 0.25rem;
+  overflow: hidden;
+}
+
+/* Transition effect for dropdown container */
+.navbar-nav .navbar-collapse.custom {
+  max-height: 0;
+  transition: max-height 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.navbar-nav .navbar-collapse.custom.show {
+  max-height: 20rem; /* Adjust as needed */
+}
+/* Style for the dropdown buttons with Poppins font */
+.navbar-nav .nav-link.custom {
+  font-family: 'Poppins', sans-serif; /* Apply Poppins font */
+  font-weight: 500; /* Use bold */
+  color: #fff;
+  padding: 0.5rem 1rem;
+}
+/* Creative styling for the app title */
+.navbar-brand {
+  font-family: 'Poppins', sans-serif; /* Apply Poppins font */
+  font-weight: 700; /* Use bold */
+  font-size: 2rem; /* Adjust as needed */
+  color: #ff6f61; /* Creative color */
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.2); /* Add a text shadow */
+  /* Add any other creative styling you want for the title here */
+  padding: 1rem;
+}
+.nav-link.custom i.fas.fa-user {
+  font-size: 1.2rem; /* Adjust as needed */
+  margin-left: 4rem; /* Add some spacing */
+  color: #ffffffa2; /* Subtle color */
+}
+
