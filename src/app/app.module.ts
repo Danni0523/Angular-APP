@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -9,6 +10,8 @@ import { CostoSmartphoneComponent } from './costo-smartphone/costo-smartphone.co
 import { CostoPlanComponent } from './costo-plan/costo-plan.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
+import { LandingComponent } from './landing/landing.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +21,14 @@ import { LoginComponent } from './login/login.component';
     CostoSmartphoneComponent,
     CostoPlanComponent,
     NavbarComponent,
-    LoginComponent
+    LoginComponent,
+    SignupComponent,
+    LandingComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
