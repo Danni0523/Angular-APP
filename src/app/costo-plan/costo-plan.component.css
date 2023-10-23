@@ -1,0 +1,93 @@
+/* costo-plan.component.css */
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  border-bottom: none;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #007bff;
+}
+
+.card-body {
+  font-size: 1.1rem;
+}
+
+.sticky-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+.calculator {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.calculator label {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333333;
+}
+
+.calculator input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+.calculator button {
+  background-color: #28a745;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.calculator button:hover {
+  background-color: #218838;
+}
+
+.resultado {
+  margin-top: 20px;
+}
+
+.resultado h3 {
+  font-size: 1.8rem;
+  color: #333333;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .sticky-button {
+    right: 10px;
+  }
+}

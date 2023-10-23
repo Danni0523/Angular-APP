@@ -1,4 +1,29 @@
+<!-- consulta-costos.component.html -->
+
 <div class="container mt-5">
   <h1 class="display-3 text-center">Consultar Costo de Cualquier Equipo</h1>
-  <p class="lead text-center">Placeholder content for Consultar Costos.</p>
+
+  <div class="row mt-5">
+    <div class="col-md-4">
+      <ul class="list-group">
+        <li class="list-group-item cursor-pointer"
+            *ngFor="let phone of phones; let i = index"
+            (click)="showDetail(phone, i)">
+          {{ phone.Brand }} {{ phone.Reference }}
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-8">
+  <div *ngIf="selectedPhone" [id]="'phone-detail-' + selectedPhone.Brand + selectedPhone.Reference" class="phone-details">
+    <h2>{{ selectedPhone.Brand }} {{ selectedPhone.Reference }}</h2>
+    <p>{{ selectedPhone.Description }}</p>
+    <h3>Precio: ${{ selectedPhone.Price }}</h3>
+    <img [src]="selectedPhone.ImageUrl || 'assets/not-found.png'" alt="Not Found">
+  </div>
+  <div *ngIf="!selectedPhone" class="text-center phone-details">
+    <h3>No se ha seleccionado ningún teléfono. Por favor, elige una opción.</h3>
+  </div>
+</div>
+
+  </div>
 </div>

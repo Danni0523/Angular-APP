@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(to bottom, #ffffff, #f68e5f);
+  background: linear-gradient(to bottom, #ffad6a, #f65f85); /* Colores Sunset */
 }
 
 .login-box {
@@ -14,6 +14,7 @@
   width: 100%;
   position: relative; /* Added relative positioning for pseudo-element */
 }
+
 .error-message {
   color: #ff0000; /* Red color for error messages */
   margin-top: 10px;
@@ -27,13 +28,13 @@
   left: 0;
   width: 100%;
   height: 10px;
-  background-color: #add8e6; /* Light blue color for bottom border */
+  background-color: #ffad6a; /* Light Sunset color for bottom border */
   border-radius: 0 0 10px 10px; /* Round the bottom corners */
 }
 
 .login-title {
   font-size: 1.5rem;
-  color: #f65f85;
+  color: #f65f85; /* Sunset Pink */
   margin-bottom: 20px;
   text-align: center;
 }
@@ -45,13 +46,13 @@
 .form-control {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #e68a53; /* Sunset Orange */
   border-radius: 5px;
   font-size: 1rem;
 }
 
 .btn-primary {
-  background-color: #f65f85;
+  background-color: #f65f85; /* Sunset Pink */
   border: none;
   border-radius: 5px;
   padding: 10px;
@@ -59,5 +60,5 @@
 }
 
 .btn-primary:hover {
-  background-color: #e16838;
+  background-color: #e16838; /* Darker Sunset Pink */
 }

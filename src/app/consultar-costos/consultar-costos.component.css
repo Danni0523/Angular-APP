@@ -1,0 +1,89 @@
+/* consulta-costos.component.css */
+
+.container {
+  margin-top: 2rem;
+}
+
+.list-group-item {
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.list-group-item:hover {
+  background-color: #f0f0f0;
+}
+
+.row {
+  margin-top: 2rem;
+}
+
+.col-md-8 img {
+  max-width: 100%;
+}
+
+h2, h3 {
+  color: #f65f85;
+  text-align: center;
+}
+
+p, h3 {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.col-md-4 {
+  border-right: 1px solid #ccc;
+}
+
+@media (max-width: 767.98px) {
+  .col-md-4 {
+    border-right: none;
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.cursor-pointer:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-5px);
+}
+
+/* Para la transición del hover */
+.cursor-pointer {
+  will-change: background-color, transform;
+}
+/* Estilos para el área de detalles de teléfono */
+
+.phone-details {
+  text-align: center;
+  padding: 20px;
+}
+
+.phone-details h2 {
+  font-size: 1.8em;
+  color: #f65f85;
+  margin-bottom: 10px;
+}
+
+.phone-details p {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+.phone-details h3 {
+  font-size: 1.4em;
+  color: #f65f85;
+  margin-bottom: 10px;
+}
+
+.phone-details img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}

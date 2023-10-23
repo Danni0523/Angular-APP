@@ -1,38 +1,29 @@
 .card {
   margin-bottom: 20px;
-}
-
-.card.shadow {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.card-header {
-  background-color: #f8f9fa;
-}
-
-.list-group-item:hover {
-  cursor: pointer;
-  background-color: #f8f9fa;
-}
-.card {
-  margin-bottom: 20px;
   border: none;
+  transition: transform 0.3s; /* Añadimos una transición suave al hover */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Elevamos ligeramente la tarjeta al hacer hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada en hover */
 }
 
 .card-header {
   padding: 10px 15px;
+  background-color: #f8f9fa;
 }
 
 .list-group-item {
   cursor: pointer;
   border: none;
+  transition: background-color 0.3s; /* Añadimos una transición de color en hover */
 }
 
 .list-group-item:hover {
-  background-color: #f0f0f0; /* Light gray background on hover */
+  background-color: #f0f0f0; /* Cambiamos el fondo en hover */
 }
 
 .cursor-pointer {
   cursor: pointer;
 }
-

@@ -1,4 +1,124 @@
+<!-- costo-plan.component.html -->
+
 <div class="container mt-5">
-  <h1 class="display-3 text-center">Consultar Costo de Plan Móvil</h1>
-  <p class="lead text-center">Placeholder content for Costo de Plan Móvil.</p>
+  <h1 class="display-3 text-center">Planes de Datos y Telefonía Móvil</h1>
+
+  <div class="row mt-5">
+    <!-- Card 1 -->
+    <div class="col-md-6">
+      <div class="card mb-4 shadow">
+        <div class="card-header">
+          <h5 class="card-title">Plan de Datos A</h5>
+        </div>
+        <div class="card-body">
+          <p class="card-text">Incluye X GB de datos y llamadas ilimitadas.</p>
+          <p class="card-text">Precio: $XX.XX/mes</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-md-6">
+      <div class="card mb-4 shadow">
+        <div class="card-header">
+          <h5 class="card-title">Plan de Datos B</h5>
+        </div>
+        <div class="card-body">
+          <p class="card-text">Incluye Y GB de datos y llamadas ilimitadas.</p>
+          <p class="card-text">Precio: $YY.YY/mes</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <!-- Card 3 -->
+    <div class="col-md-6">
+      <div class="card mb-4 shadow">
+        <div class="card-header">
+          <h5 class="card-title">Plan de Datos C</h5>
+        </div>
+        <div class="card-body">
+          <p class="card-text">Incluye Z GB de datos y llamadas ilimitadas.</p>
+          <p class="card-text">Precio: $ZZ.ZZ/mes</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="col-md-6">
+      <div class="card mb-4 shadow">
+        <div class="card-header">
+          <h5 class="card-title">Plan de Datos D</h5>
+        </div>
+        <div class="card-body">
+          <p class="card-text">Incluye W GB de datos y llamadas ilimitadas.</p>
+          <p class="card-text">Precio: $WW.WW/mes</p>
+        </div>
+      </div>
+    </div>
+    <!-- Card 5 -->
+    <div class="col-md-6">
+      <div class="card mb-4 shadow">
+        <div class="card-header">
+          <h5 class="card-title">Plan de Datos E</h5>
+        </div>
+        <div class="card-body">
+          <p class="card-text">Incluye V GB de datos y llamadas ilimitadas.</p>
+          <p class="card-text">Precio: $VV.VV/mes</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="col-md-6">
+      <div class="card mb-4 shadow">
+        <div class="card-header">
+          <h5 class="card-title">Plan de Datos F</h5>
+        </div>
+        <div class="card-body">
+          <p class="card-text">Incluye U GB de datos y llamadas ilimitadas.</p>
+          <p class="card-text">Precio: $UU.UU/mes</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sticky-button">
+    <a (click)="scrollToCalculator()" class="btn btn-primary"
+      >Ir a la Calculadora de Pagos</a
+    >
+  </div>
+
+  <!-- Sección de Calculadora de Pagos -->
+  <div id="calculator" class="calculator mt-5">
+    <h2 class="text-center mb-4">Calculadora de Pagos</h2>
+
+    <!-- Contenido de la calculadora -->
+    <div class="form-group">
+      <label for="monto">Monto a Pagar:</label>
+      <input
+        type="number"
+        id="monto"
+        class="form-control"
+        [(ngModel)]="monto"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="cuotas">Cantidad de Cuotas:</label>
+      <input
+        type="number"
+        id="cuotas"
+        class="form-control"
+        [(ngModel)]="cuotas"
+      />
+    </div>
+
+    <button class="btn btn-success" (click)="calcularPago()">Calcular</button>
+
+    <div *ngIf="pagoMensual !== null" class="resultado">
+      <h3 class="text-center">Pago Mensual: ${{ pagoMensual.toFixed(2) }}</h3>
+    </div>
+  </div>
 </div>
