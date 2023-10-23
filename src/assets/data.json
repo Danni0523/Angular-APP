@@ -1,0 +1,124 @@
+{
+  "phones" : [
+    {
+      "Brand": "Apple",
+      "Reference": "iPhone 11 Pro Max",
+      "Price": "1099.99",
+      "Description": "The iPhone 11 Pro Max is Apple's most advanced iPhone yet, featuring a triple-camera system, an A13 Bionic chip, and a 6.5-inch Super Retina XDR display."
+    },
+    {
+      "Brand": "Samsung",
+      "Reference": "Galaxy S20 Ultra",
+      "Price": "1399.99",
+      "Description": "The Samsung Galaxy S20 Ultra is Samsung's most advanced smartphone yet, featuring a quad-camera system, an Exynos 990 processor, and a 6.9-inch Dynamic AMOLED 2X display."
+    },
+    {
+      "Brand": "Google",
+      "Reference": "Pixel 4 XL",
+      "Price": "899.99",
+      "Description": "The Google Pixel 4 XL is Google's most advanced smartphone yet, featuring a dual-camera system, a Snapdragon 855 processor, and a 6.3-inch OLED display."
+    },
+    {
+      "Brand": "OnePlus",
+      "Reference": "7T Pro",
+      "Price": "699.99",
+      "Description": "The OnePlus 7T Pro is OnePlus's most advanced smartphone yet, featuring a triple-camera system, a Snapdragon 855+ processor, and a 6.67-inch Fluid AMOLED display."
+    },
+    {
+      "Brand": "Huawei",
+      "Reference": "P40 Pro",
+      "Price": "799.99",
+      "Description": "The Huawei P40 Pro is Huawei's most advanced smartphone yet, featuring a quad-camera system, a Kirin 990 processor, and a 6.58-inch OLED display."
+    },
+    {
+      "Brand": "LG",
+      "Reference": "V60 ThinQ 5G",
+      "Price": "799.99",
+      "Description": "The LG V60 ThinQ 5G is LG's most advanced smartphone yet, featuring a dual-camera system, a Snapdragon 865 processor, and a 6.8-inch OLED display."
+    },
+    {
+      "Brand": "Motorola",
+      "Reference": "Edge+",
+      "Price": "999.99",
+      "Description": "The Motorola Edge+ is Motorola's most advanced smartphone yet, featuring a triple-camera system, a Snapdragon 865 processor, and a 6.7-inch OLED display."
+    },
+    {
+      "Brand": "Xiaomi",
+      "Reference": "Mi 10 Pro",
+      "Price": "699.99",
+      "Description": "The Xiaomi Mi 10 Pro is Xiaomi's most advanced smartphone yet, featuring a quad-camera system, a Snapdragon 865 processor, and a 6.67-inch AMOLED display."
+    },
+    {
+      "Brand": "Nokia",
+      "Reference": "9 PureView",
+      "Price": "599.99",
+      "Description": "The Nokia 9 PureView is Nokia's most advanced smartphone yet, featuring a penta-camera system, a Snapdragon 845 processor, and a 5.99-inch PureDisplay."
+    },
+    {
+      "Brand": "Sony",
+      "Reference": "Xperia 1 II",
+      "Price": "1199.99",
+      "Description": "The Sony Xperia 1 II is Sony's most advanced smartphone yet, featuring a triple-camera system, a Snapdragon 865 processor, and a 6.5-inch OLED display."
+    },
+    {
+      "Brand": "Asus",
+      "Reference": "ROG Phone 5",
+      "Price": "999.99",
+      "Description": "The Asus ROG Phone 5 is designed for gaming enthusiasts, featuring a Snapdragon 888 processor, a 6.78-inch AMOLED display, and a high-refresh-rate screen."
+    },
+    {
+      "Brand": "Oppo",
+      "Reference": "Find X3 Pro",
+      "Price": "1099.99",
+      "Description": "The Oppo Find X3 Pro boasts a powerful Snapdragon 888 processor, a quad-camera setup with innovative features, and a vibrant 6.7-inch AMOLED display."
+    },
+    {
+      "Brand": "Realme",
+      "Reference": "GT Master Edition",
+      "Price": "499.99",
+      "Description": "The Realme GT Master Edition offers a Snapdragon 778G processor, a 6.43-inch Super AMOLED display, and a stylish suitcase-inspired design."
+    },
+    {
+      "Brand": "Vivo",
+      "Reference": "X60 Pro+",
+      "Price": "1099.99",
+      "Description": "The Vivo X60 Pro+ features a Snapdragon 888 processor, a Zeiss co-engineered quad-camera system, and a 6.56-inch AMOLED display with a high refresh rate."
+    },
+    {
+      "Brand": "Lenovo",
+      "Reference": "Legion Phone Duel 2",
+      "Price": "899.99",
+      "Description": "The Lenovo Legion Phone Duel 2 is built for gaming with a Snapdragon 888 processor, a unique dual-battery design, and a 6.92-inch AMOLED display with a high refresh rate."
+    },
+    {
+      "Brand": "ZTE",
+      "Reference": "Axon 30 Ultra",
+      "Price": "899.99",
+      "Description": "The ZTE Axon 30 Ultra features a Snapdragon 888 processor, a triple-camera system with advanced imaging capabilities, and a 6.67-inch AMOLED display."
+    },
+    {
+      "Brand": "Nubia",
+      "Reference": "Red Magic 7",
+      "Price": "899.99",
+      "Description": "The Nubia Red Magic 7 is a gaming-oriented phone with a Snapdragon 888 processor, a high-refresh-rate display, and a unique cooling system for extended gaming sessions."
+    },
+    {
+      "Brand": "Infinix",
+      "Reference": "Note 11 Pro",
+      "Price": "299.99",
+      "Description": "The Infinix Note 11 Pro offers a MediaTek Helio G96 processor, a large 6.95-inch IPS LCD display, and a long-lasting battery for productivity and entertainment."
+    },
+    {
+      "Brand": "BlackBerry",
+      "Reference": "KEY3",
+      "Price": "799.99",
+      "Description": "The BlackBerry KEY3 combines a physical keyboard with modern smartphone features, offering a Snapdragon 778G processor and a 6.4-inch AMOLED display."
+    },
+    {
+      "Brand": "HTC",
+      "Reference": "Wildfire E3",
+      "Price": "199.99",
+      "Description": "The HTC Wildfire E3 is an affordable option with a MediaTek Helio G35 processor, a 6.52-inch IPS LCD display, and a large battery for extended usage."
+    }
+  ]
+}

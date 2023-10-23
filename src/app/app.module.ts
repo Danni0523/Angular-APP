@@ -6,19 +6,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ConsultarCostosComponent } from './consultar-costos/consultar-costos.component';
 import { CompraEquipoComponent } from './compra-equipo/compra-equipo.component';
-import { CostoSmartphoneComponent } from './costo-smartphone/costo-smartphone.component';
 import { CostoPlanComponent } from './costo-plan/costo-plan.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { LandingComponent } from './landing/landing.component';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
     AppComponent,
     ConsultarCostosComponent,
     CompraEquipoComponent,
-    CostoSmartphoneComponent,
     CostoPlanComponent,
     NavbarComponent,
     LoginComponent,
@@ -28,7 +27,8 @@ import { LandingComponent } from './landing/landing.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

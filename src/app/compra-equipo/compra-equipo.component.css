@@ -1,0 +1,38 @@
+.card {
+  margin-bottom: 20px;
+}
+
+.card.shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #f8f9fa;
+}
+
+.list-group-item:hover {
+  cursor: pointer;
+  background-color: #f8f9fa;
+}
+.card {
+  margin-bottom: 20px;
+  border: none;
+}
+
+.card-header {
+  padding: 10px 15px;
+}
+
+.list-group-item {
+  cursor: pointer;
+  border: none;
+}
+
+.list-group-item:hover {
+  background-color: #f0f0f0; /* Light gray background on hover */
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+

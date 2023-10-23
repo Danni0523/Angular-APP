@@ -1,4 +1,39 @@
 <div class="container mt-5">
-  <h1 class="display-3 text-center">Costo de Compra de Equipo</h1>
-  <p class="lead text-center">Placeholder content for Compra de Equipo.</p>
+  <div class="row">
+    <div class="col-lg-3 mb-4">
+<!-- Sorting Sidebar -->
+<div class="card border-primary">
+  <div class="card-header bg-primary text-white">
+    <h5 class="mb-0">Filter By:</h5>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item cursor-pointer border-primary" (click)="sortProducts('name')">
+      Name
+    </li>
+    <li class="list-group-item cursor-pointer border-primary" (click)="sortProducts('brand')">
+      Brand
+    </li>
+    <li class="list-group-item cursor-pointer border-primary" (click)="sortProducts('price')">
+      Price
+    </li>
+  </ul>
+</div>
+
+    </div>
+    <div class="col-lg-9">
+      <div class="row">
+        <div class="col-md-6 mb-4" *ngFor="let product of products">
+          <div class="card shadow">
+            <div class="card-body">
+              <h5 class="card-title">
+                {{ product.Brand }} {{ product.Reference }}
+              </h5>
+              <p class="card-text">{{ product.Description }}</p>
+              <p class="card-text font-weight-bold">{{ product.Price }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
